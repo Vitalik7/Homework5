@@ -1,0 +1,102 @@
+div#container {
+  float: left;
+  width: 40%;
+  height: 100%;
+  padding: 20px;
+  margin: auto;
+  margin-left: 30%;
+  margin-top: 2%;
+  border: 3px solid #73AD21; }
+
+div#row {
+  height: 50px; }
+
+input#todoInput {
+  width: 95%;
+  margin: 0;
+  margin-left: 2%; }
+
+i.material-icons {
+  float: right;
+  margin: 0;
+  color: red;
+  transform: scale(1.5); }
+
+ul#todoUl {
+  width: 100%;
+  margin: 0;
+  text-align: left; }
+
+ul#todoUl li {
+  width: 100%;
+  height: auto;
+  margin-top: 2%;
+  background: #72f7b1;
+  font-size: 18px; }
+
+ul#todoUl input {
+  position: relative;
+  float: left;
+  margin: 0;
+  margin-right: 1%;
+  transform: scale(1);
+  opacity: 1;
+  pointer-events: auto; }
+
+@supports (zoom: 2) {
+  input[type=checkbox] {
+    zoom: 2; } }
+div#itemBloks {
+  width: 100%;
+  height: auto; }
+
+ul#items {
+  width: 100%; }
+
+#items li {
+  float: left;
+  display: block;
+  width: 15%;
+  margin-left: 8%;
+  text-align: center; }
+
+#allItem button, #completeItem button, #activeItem button {
+  width: 100%;
+  padding: 0;
+  text-align: center; }
+
+#countItem {
+  height: 36px;
+  background-color: #26a69a;
+  color: #fff;
+  font-size: 17px; }
+
+#countItem span {
+  position: relative;
+  top: 10%;
+  float: left;
+  width: auto;
+  text-align: left; }
+
+@media screen and (max-width: 1500px) {
+  div#container {
+    width: 50%;
+    margin-left: 25%; } }
+@media screen and (max-width: 1000px) {
+  div#container {
+    width: 80%;
+    margin-left: 10%; } }
+@media screen and (max-width: 650px) {
+  div#container {
+    width: 100%;
+    margin-left: 0%; }
+
+  #items li {
+    display: block;
+    float: left;
+    width: 47%;
+    margin-left: 3%;
+    margin-top: 3%;
+    text-align: center; } }
+
+/*# sourceMappingURL=style.css.map */
