@@ -1,3 +1,23 @@
+@media screen and (max-width: 1500px) {
+  div#container {
+    width: 50%;
+    margin-left: 25%; } }
+@media screen and (max-width: 1000px) {
+  div#container {
+    width: 80%;
+    margin-left: 10%; } }
+@media screen and (max-width: 650px) {
+  div#container {
+    width: 100%;
+    margin-left: 0%; }
+
+  ul#items li {
+    display: block;
+    float: left;
+    width: 47%;
+    margin-left: 3%;
+    margin-top: 3%;
+    text-align: center; } }
 div#container {
   float: left;
   width: 40%;
@@ -18,34 +38,44 @@ input#todoInput {
   font-size: 20px; }
 
 i.material-icons {
+  position: relative;
   float: right;
-  margin: 0;
+  margin: 1.5%;
   color: red;
   transform: scale(1.5); }
 
 ul#todoUl {
   width: 100%;
+  padding: 5%;
+  display: none;
   margin: 0;
   text-align: left; }
 
 ul#todoUl li {
+  display: block;
   width: 100%;
-  height: auto;
-  margin-top: 2%;
-  background: #72f7b1;
-  font-size: 18px; }
+  height: 50px;
+  margin-bottom: 3%;
+  border: 3px solid #90A4AE; }
 
 ul#todoUl input {
   position: relative;
-  float: left;
-  margin: 0;
+  float: right;
+  margin: 1.5%;
   margin-right: 1%;
   transform: scale(1);
   opacity: 1;
   pointer-events: auto; }
 
+p.item_p {
+  position: relative;
+  float: left;
+  margin: 1.5%;
+  font-size: 22px;
+  white-space: pre; }
+
 @supports (zoom: 2) {
-  input[type=checkbox] {
+  input.filled-in {
     zoom: 2; } }
 div#itemBloks {
   width: 100%;
@@ -78,26 +108,5 @@ ul#items {
   float: left;
   width: auto;
   text-align: left; }
-
-@media screen and (max-width: 1500px) {
-  div#container {
-    width: 50%;
-    margin-left: 25%; } }
-@media screen and (max-width: 1000px) {
-  div#container {
-    width: 80%;
-    margin-left: 10%; } }
-@media screen and (max-width: 650px) {
-  div#container {
-    width: 100%;
-    margin-left: 0%; }
-
-  #items li {
-    display: block;
-    float: left;
-    width: 47%;
-    margin-left: 3%;
-    margin-top: 3%;
-    text-align: center; } }
 
 /*# sourceMappingURL=style.css.map */
