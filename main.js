@@ -31,8 +31,8 @@ document.addEventListener('keypress', function todoList (event) {
 	function checkboxItem () {
 		var checkbox = document.createElement('input')
 		checkbox.setAttribute('type', 'checkbox')
-    checkbox.setAttribute('class', 'filled-in')
-   	checkbox.innerHTML = "<label for='filled-in-box'>Filled in</label>"
+    		checkbox.setAttribute('class', 'filled-in')
+   		checkbox.innerHTML = "<label for='filled-in-box'>Filled in</label>"
 		newItem.appendChild(checkbox)
 
 		checkbox.addEventListener('click', function () {
